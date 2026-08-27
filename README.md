@@ -18,3 +18,12 @@ A Cisco Packet Tracer project that simulates a company office network using rout
 - ASA firewall integration and security policies
 - Management VLAN
 - SSH remote management
+
+## VLAN Design
+| VLAN |     Name       |     Network     |
+|------|----------------|-----------------|
+|  10  |    Employees   | 192.168.10.0/24 |
+|  20  |    Servers     | 192.168.20.0/24 |
+|  30  |    Printers    | 192.168.30.0/24 |
+|  40  |    Guest       | 192.168.40.0/24 |
+|  50  |    Management  | 192.168.50.0/24 |
