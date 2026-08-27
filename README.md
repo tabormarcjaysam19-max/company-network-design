@@ -82,6 +82,7 @@ Guest Wi-Fi is separated from the internal company network through the ASA firew
 The network separates employee, server, printer, guest, and management traffic using VLANs and ACLs. Guest Wi-Fi is isolated from internal company resources while retaining Internet access, and SSH is used for secure remote management of network devices.
 
 ## Testing and Verification
+
 ### VLAN Configuration
 Verified VLANs for employees, servers, printers, guests, and network management.
 ![VLAN Configuration](screenshots/vlan-configuration.png)
