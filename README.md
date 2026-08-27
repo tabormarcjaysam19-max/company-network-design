@@ -61,3 +61,28 @@ Configured firewall rules to control traffic between the company network, guest 
 - 3 Servers
 - 2 Network Printers
 - Employee PCs and laptops
+
+## IP Addressing Plan
+
+| Device / Network | IP Address / Subnet |
+|---|---|
+| VLAN 10 - Employees | 192.168.10.0/24 |
+| VLAN 20 - Servers | 192.168.20.0/24 |
+| VLAN 30 - Printers | 192.168.30.0/24 |
+| VLAN 40 - Guest Wi-Fi | 192.168.40.0/24 |
+| VLAN 50 - Management | 192.168.50.0/24 |
+| SW-CORE VLAN 10 Gateway | 192.168.10.1 |
+| SW-CORE VLAN 20 Gateway | 192.168.20.1 |
+| SW-CORE VLAN 30 Gateway | 192.168.30.1 |
+| FIREWALL Guest Gateway | 192.168.40.1 |
+| SW-CORE VLAN 50 Gateway | 192.168.50.1 |
+| DNS/DHCP Server | 192.168.20.10 |
+| File Server | 192.168.20.20 |
+| Application Server | 192.168.20.30 |
+| Printer 1 | 192.168.30.10 |
+| Printer 2 | 192.168.30.11 |
+| PC-IT | 192.168.50.100 |
+| SW-ACCESS1 | 192.168.50.11 |
+| SW-ACCESS2 | 192.168.50.12 |
+| SW-ACCESS3 | 192.168.50.13 |
+| SW-ACCESS4 | 192.168.50.14 |
