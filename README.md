@@ -100,5 +100,16 @@ Configured firewall rules to control traffic between the company network, guest 
 | Guest Wi-Fi | Internet | Allowed |
 | Management | Network Devices | Allowed via SSH |
 | Printers | Internet | Blocked |
-
 Guest Wi-Fi is separated from the internal company network through the ASA firewall, while the management network is used for secure administration of switches through SSH.
+
+## Project Testing
+
+The network was tested to verify connectivity, segmentation, security, and remote management.
+
+- Verified employee devices could reach their default gateway, servers, printers, and simulated Internet.
+- Verified corporate Wi-Fi devices received the correct network access.
+- Verified guest Wi-Fi could access the simulated Internet while internal company resources remained blocked.
+- Verified VLAN communication through inter-VLAN routing.
+- Verified NAT/PAT translations on the edge router.
+- Verified SSH remote management from the IT workstation to network switches.
+- Verified firewall rules and ACLs were enforcing the intended access policies.
