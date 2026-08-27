@@ -83,7 +83,7 @@ The network separates employee, server, printer, guest, and management traffic u
 
 ## Testing and Verification
 
-### VLAN Configuration
+VLAN Configuration
 Verified VLANs for employees, servers, printers, guests, and network management.
 ![VLAN Configuration](screenshots/vlan-configuration.png)
 
