@@ -51,3 +51,13 @@ Verified secure remote management of network switches from the IT workstation us
 ### Firewall Security Policy
 Configured firewall rules to control traffic between the company network, guest network, and simulated Internet.
 ![Firewall Security Policy](screenshots/firewall-security-policy.png)
+
+## Devices Used
+- 2 Cisco 2911 Routers
+- 1 Cisco ASA 5506 Firewall
+- 1 Cisco 3560 Layer 3 Core Switch
+- 4 Cisco 2960 Access Switches
+- 2 Wireless Access Points
+- 3 Servers
+- 2 Network Printers
+- Employee PCs and laptops
