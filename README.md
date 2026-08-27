@@ -32,4 +32,4 @@ A Cisco Packet Tracer project that simulates a company office network using rout
 The network separates employee, server, printer, guest, and management traffic using VLANs and ACLs. Guest Wi-Fi is isolated from internal company resources while retaining Internet access, and SSH is used for secure remote management of network devices.
 
 ## Project File
-**Company_Network_Lab.pkt**
+[Company_Network_Lab.pkt](Company_Network_Lab.pkt)
