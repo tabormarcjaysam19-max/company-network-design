@@ -86,3 +86,19 @@ Configured firewall rules to control traffic between the company network, guest 
 | SW-ACCESS2 | 192.168.50.12 |
 | SW-ACCESS3 | 192.168.50.13 |
 | SW-ACCESS4 | 192.168.50.14 |
+
+## Network Access Policy
+| Source Network | Destination | Access |
+|---|---|---|
+| Employees | Servers | Allowed |
+| Employees | Printers | Allowed |
+| Employees | Internet | Allowed |
+| Guest Wi-Fi | Employees | Blocked |
+| Guest Wi-Fi | Servers | Blocked |
+| Guest Wi-Fi | Printers | Blocked |
+| Guest Wi-Fi | Management | Blocked |
+| Guest Wi-Fi | Internet | Allowed |
+| Management | Network Devices | Allowed via SSH |
+| Printers | Internet | Blocked |
+
+Guest Wi-Fi is separated from the internal company network through the ASA firewall, while the management network is used for secure administration of switches through SSH.
