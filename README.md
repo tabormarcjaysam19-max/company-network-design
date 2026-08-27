@@ -63,7 +63,6 @@ Configured firewall rules to control traffic between the company network, guest 
 - Employee PCs and laptops
 
 ## IP Addressing Plan
-
 | Device / Network | IP Address / Subnet |
 |---|---|
 | VLAN 10 - Employees | 192.168.10.0/24 |
@@ -100,11 +99,11 @@ Configured firewall rules to control traffic between the company network, guest 
 | Guest Wi-Fi | Internet | Allowed |
 | Management | Network Devices | Allowed via SSH |
 | Printers | Internet | Blocked |
+
 Guest Wi-Fi is separated from the internal company network through the ASA firewall, while the management network is used for secure administration of switches through SSH.
 
-## Project Testing
-
-The network was tested to verify connectivity, segmentation, security, and remote management.
+## Lab Testing
+Network was tested to verify connectivity, segmentation, security, and remote management.
 
 - Verified employee devices could reach their default gateway, servers, printers, and simulated Internet.
 - Verified corporate Wi-Fi devices received the correct network access.
@@ -113,3 +112,15 @@ The network was tested to verify connectivity, segmentation, security, and remot
 - Verified NAT/PAT translations on the edge router.
 - Verified SSH remote management from the IT workstation to network switches.
 - Verified firewall rules and ACLs were enforcing the intended access policies.
+
+## Skills Demonstrated
+- Network design and IP addressing
+- VLAN configuration and trunking
+- Inter-VLAN routing
+- DHCP and DNS configuration
+- Static routing and NAT/PAT
+- Wireless network segmentation
+- ACL and firewall configuration
+- Guest network isolation
+- SSH remote management
+- Network connectivity testing and troubleshooting
